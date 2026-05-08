@@ -2,7 +2,7 @@
 
 An intelligent learning assistant powered by RAG (Retrieval-Augmented Generation) that answers questions about instructional design, eLearning best practices, learning theories, and narrative learning design.
 
-## ✨ Features
+## Features
 
 ### Core Capabilities
 - **RAG-Powered Answers**: Uses Retrieval-Augmented Generation to provide accurate, context-aware responses based on your custom knowledge base
@@ -11,13 +11,13 @@ An intelligent learning assistant powered by RAG (Retrieval-Augmented Generation
 - **OpenAI Integration**: Powered by GPT-3.5-turbo for natural language understanding and generation
 
 ### New Features (v2.0)
-- **🎨 Blue & White Theme**: Modern, professional interface with calming blue and white color scheme
-- **💾 Conversation Export**: Export your conversation history in TXT or JSON format
-- **🛡️ Enhanced Error Handling**: Comprehensive error messages with helpful troubleshooting hints
-- **📚 Expanded Knowledge Base**: Now includes Narrative Learning Design document
-- **📊 Real-time Statistics**: Track message count and conversation progress
+- ** Blue & White Theme**: Modern, professional interface with calming blue and white color scheme
+- ** Conversation Export**: Export your conversation history in TXT or JSON format
+- ** Enhanced Error Handling**: Comprehensive error messages with helpful troubleshooting hints
+- ** Expanded Knowledge Base**: Now includes Narrative Learning Design document
+- ** Real-time Statistics**: Track message count and conversation progress
 
-## 🏗️ Technology Stack
+## Technology Stack
 
 - **Python**: Core programming language
 - **Streamlit**: Web UI framework with custom CSS styling
@@ -26,7 +26,7 @@ An intelligent learning assistant powered by RAG (Retrieval-Augmented Generation
 - **OpenAI API**: GPT-3.5-turbo for language understanding and generation
 - **OpenAI Embeddings**: Text-embedding-ada-002 for semantic search
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 learningassistant/
@@ -43,7 +43,7 @@ learningassistant/
 └── chroma_db/                  # Vector database (created on first run)
 ```
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - OpenAI API key ([get one here](https://platform.openai.com/api-keys))
@@ -51,7 +51,7 @@ learningassistant/
 - 50+ MB disk space for dependencies
 - Internet connection for OpenAI API calls
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Clone or Download
 ```bash
@@ -83,7 +83,7 @@ OPENAI_API_KEY=sk-your-actual-api-key-here
 
 Get your API key from: https://platform.openai.com/api-keys
 
-## 💻 Usage
+##  Usage
 
 ### Starting the Application
 
@@ -113,16 +113,16 @@ The application will open in your default browser at `http://localhost:8501`
 ### Managing Conversations
 
 **Clear Conversation**
-- Click "🗑️ Clear Conversation" to start fresh
+- Click " Clear Conversation" to start fresh
 - Conversation memory resets while keeping knowledge base loaded
 
 **Export Conversation**
-- Click "📄 TXT" to download as plain text
-- Click "📋 JSON" to download as structured data
+- Click " TXT" to download as plain text
+- Click " JSON" to download as structured data
 - Exports include all messages, sources, and metadata
 - Filename includes timestamp for easy organization
 
-## 📚 Knowledge Base
+##  Knowledge Base
 
 The system includes **four comprehensive documents** covering 53,345 words across 200+ topics:
 
@@ -174,7 +174,7 @@ To expand the knowledge base:
 - Plain text format (.txt)
 - Any length (will be automatically chunked)
 
-## 🎨 User Interface
+##  User Interface
 
 ### Blue & White Theme
 The application features a professional blue and white color scheme:
@@ -219,7 +219,7 @@ llm = ChatOpenAI(
 
 **Note:** GPT-4 is more expensive but provides better reasoning and longer responses.
 
-## 🎯 Example Questions
+## Example Questions
 
 ### Beginner Questions
 - What is the ADDIE model?
@@ -245,7 +245,7 @@ The conversation memory allows natural follow-ups:
 - "How would I apply that in practice?"
 - "What are the common mistakes to avoid?"
 
-## 🔧 How It Works
+##  How It Works
 
 ### RAG Pipeline
 
@@ -281,7 +281,7 @@ The conversation memory allows natural follow-ups:
    - Context maintained for follow-up questions
    - Cleared manually or on session end
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Error: OpenAI API Key Not Configured
 **Symptoms:** Red error message in sidebar
@@ -341,7 +341,7 @@ The conversation memory allows natural follow-ups:
 - Try different browser
 - Check disk space for downloads
 
-## 💰 Cost Considerations
+##  Cost Considerations
 
 ### API Usage Costs
 
@@ -374,7 +374,7 @@ The conversation memory allows natural follow-ups:
 4. Clear cache regularly to avoid re-embeddings
 5. Monitor usage at OpenAI dashboard
 
-## 🔒 Security & Privacy
+##  Security & Privacy
 
 ### API Key Security
 - Store API key in `.env` file (not committed to git)
@@ -394,7 +394,7 @@ The conversation memory allows natural follow-ups:
 - Review OpenAI's data usage policy
 - Consider data classification before uploading
 
-## 🚧 Known Limitations
+##  Known Limitations
 
 1. **Knowledge Scope**: Answers limited to knowledge base content
 2. **Context Window**: Very long conversations may lose early context
@@ -405,7 +405,7 @@ The conversation memory allows natural follow-ups:
 7. **Real-time Data**: Knowledge base must be manually updated
 8. **Concurrent Users**: Single-user application (no authentication)
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 ### Planned Features
 - [ ] PDF and DOCX document support
@@ -428,7 +428,7 @@ We welcome contributions! Areas of interest:
 - Bug fixes and testing
 - Documentation enhancements
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 ### Speed
 - Document loading: 5-10 seconds (4 documents)
@@ -446,7 +446,7 @@ We welcome contributions! Areas of interest:
 - Disk: ~150 MB (with vector store)
 - CPU: Low (mostly I/O bound)
 
-## 📖 Additional Resources
+##  Additional Resources
 
 ### Learning Resources
 - [OpenAI API Documentation](https://platform.openai.com/docs)
@@ -466,7 +466,7 @@ For issues or questions:
 - Test with `test_imports.py` script
 - Check application logs in terminal
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Built with open-source technologies:
 - [Streamlit](https://streamlit.io/) - Beautiful web apps for ML/AI
@@ -476,7 +476,7 @@ Built with open-source technologies:
 
 Special thanks to the instructional design community for knowledge base inspiration.
 
-## 📝 License
+##  License
 
 This project is provided as-is for educational purposes.
 
@@ -486,15 +486,15 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## 📌 Version History
+##  Version History
 
 ### Version 2.0.0 (Current)
-- ✨ Added blue & white UI theme
-- 💾 Added conversation export (TXT/JSON)
-- 🛡️ Enhanced error handling with helpful hints
-- 📚 Added Narrative Learning Design document
-- 📊 Added real-time statistics display
-- 🎨 Improved visual styling and UX
+-  Added blue & white UI theme
+-  Added conversation export (TXT/JSON)
+-  Enhanced error handling with helpful hints
+-  Added Narrative Learning Design document
+-  Added real-time statistics display
+-  Improved visual styling and UX
 
 ### Version 1.0.0
 - Initial release
@@ -506,6 +506,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 ---
 
-**Ready to get started?** Install the dependencies and run `streamlit run learning_assistant.py`! 🚀
+**Ready to get started?** Install the dependencies and run `streamlit run learning_assistant.py`! 
 
-For questions about instructional design, just ask the assistant! 💬
+For questions about instructional design, just ask the assistant! 
